@@ -37,7 +37,8 @@ int main() {
   // Initialize the pid variable.
   // pid.Init(0.08, 0.0004, 1.5);
   // pid.Init(1.2, 0.002, 3.0); // too much swerve
-  pid.Init(0.8, 0.1, 2.0);
+  // pid.Init(0.8, 0.1, 2.0); // WAY too much swerve all the way to +/-25
+  pid.Init(0.8, 0.001, 2.0);
   // pid.Init(0.2, 0.0, 0.0); // all P
   // pid.Init(0.0, 0.2, 0.0); // all I
   // pid.Init(0.0, 0.0, 4.0); // all D
