@@ -85,7 +85,7 @@ int main() {
 
           // msgJson["throttle"] = (1 - std::abs(steer_value)) * 0.5 + 0.2;
 
-          msgJson["throttle"] = 0.5;
+          msgJson["throttle"] = 0.38;
           
 
           auto msg = "42[\"steer\"," + msgJson.dump() + "]";
